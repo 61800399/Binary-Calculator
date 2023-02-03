@@ -17,7 +17,7 @@ using System.Windows.Shapes;
 namespace Binary_Calc
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MainWindow.xamlggg
     /// </summary>
     public partial class MainWindow : Window
     {
