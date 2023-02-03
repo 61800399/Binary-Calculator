@@ -15,7 +15,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="Input" HorizontalAlignment="Left" Margin="84,206,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="632" Height="54" Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="36" KeyDown="Input_KeyDown"/>
+        <TextBox x:Name="Input" HorizontalAlignment="Left" Margin="84,206,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="632" Height="54" Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="36" KeyDown="Input_KeyDown" PreviewTextInput="Input_PreviewTextInput"/>
         <TextBlock x:Name="Output" HorizontalAlignment="Left" Margin="175,96,0,0" Grid.Row="1" TextWrapping="NoWrap" Text="Output" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="100" Width="450" FontSize="72"/>
         <TextBlock x:Name="Directions" HorizontalAlignment="Left" Margin="100,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="600" Height="68" FontSize="48" Text="Directions"/>
         <Button x:Name="Mode_Button" Grid.Column="1" Content="Binary --&gt; Decimal" HorizontalAlignment="Left" Margin="104,38,0,0" VerticalAlignment="Top" Height="66" Width="254" FontSize="24" Click="Mode_Button_Click"/>

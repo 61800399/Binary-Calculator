@@ -122,5 +122,10 @@ namespace Binary_Calc
                 Directions.Text = "Type a number in Decimal";
             }
         }
+
+        private void Input_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            e.Handled = !int.TryParse(e.Text, out int result);
+        }
     }
 }
